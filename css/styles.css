@@ -132,10 +132,12 @@ gap: 40px;
 display: flex;
 align-items: center;
 gap: 40px;
-padding-top: 24px;
-padding-bottom: 24px;
 }
     
+.nav-item {
+    padding: 24px 0;
+}
+
 .nav {
 display: flex;
 align-items: center;
@@ -194,6 +196,10 @@ padding: 188px 0;
 
 /* ................SECTION:ABOUT..............*/
 
+.about-section {
+    padding: 120px 0;
+}
+
 .about-item-title {
     font-weight: 500;
     font-size: 20px;
@@ -204,7 +210,7 @@ padding: 188px 0;
 }
 
 .about-item { 
-    flex-basis: calc((100% - 72px) / 4));
+    width: calc((100% - 72px) / 4);
 }
 
 .about-list {
@@ -235,7 +241,7 @@ align-items: center;
 padding-right: 141px;
 padding-left: 141px;
 gap: 24px;
-flex-basis: calc((100% - 3 * 16px) / 3))
+width: calc((100% - 48px) / 3);
 }
 
 
@@ -263,7 +269,7 @@ text-align: center;
 padding-left: 141px;
 padding-right: 141px;
 gap: 24px;
-flex-basis: calc((100% - 72px) / 4));
+width: calc((100% - 72px) / 4);
 }
 
 .team-card {
@@ -298,6 +304,7 @@ border-radius: 0px 0px 4px 4px;
 /* ---------------------FOOTER-------------------- */
 .footer {
     background-color: var(--color-secondary);
+    padding: 100px 0;
 }
 .footer-logo {
     color: #4D5AE5;
@@ -324,7 +331,7 @@ border-radius: 0px 0px 4px 4px;
 }
 
 .footer-container {
-padding: 100px 1005px 100px 141px;
+padding: 0 1005px 0 141px;
 max-width: 264px;
 }
 
@@ -402,4 +409,5 @@ row-gap: 48px;
 .item-text-box {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
+    border-top: none;
 }
