@@ -330,11 +330,12 @@ address{
 
 .footer-text {
     color: #F4F4FD;
+    max-width: 264px;
 }
 
 .footer-container {
-    max-width: 264px;
-    margin-left: 0;
+    /* max-width: 264px;
+    margin-left: 0; */
 
 }
 
